@@ -1,0 +1,207 @@
+/*Mobile screens*/
+@media (min-width:325px) {
+    #two {
+        grid-area: 2/1/3/7;
+        background-color: rgb(247, 101, 125);
+    }
+
+    a {
+        color: rgb(224, 224, 28);
+    }
+
+    .menu {
+        list-style: none;
+        float: left;
+        font-size: 5px;
+        padding-left: 0%;
+        color: rgb(224, 224, 28);
+    }
+    
+    .menu li {
+        /*Style menu items*/
+        position: relative;
+        float: left;
+    }
+    
+    .menu li a {
+        /*Style menu links*/
+        text-decoration: none;
+        padding: 3px;
+    }
+    
+    .menu li a:hover {
+        text-decoration: underline;
+    }
+    
+    .menu li ul {
+        /*Style items submenu*/
+        position: absolute;
+        background-color: rgb(247, 101, 125);
+        display: none;
+    }
+    
+    .menu li:hover ul,
+    .menu li.over ul {
+        display: block;
+    }
+    
+    .menu li ul li {
+        display: block;
+        width: 150px;
+    }
+
+    .search {
+        font-size: 5px;
+        float: right;
+        position: relative;
+        top: -15px;
+    }
+
+    label {
+        color: rgb(224, 224, 28);
+    }
+
+    #query {
+        font-size: 5px;
+    }
+}
+
+/*Medium-sized screens*/
+@media (min-width:601px) {
+    #two {
+        grid-area: 2/1/3/7;
+        background-color: rgb(247, 101, 125);
+    }
+
+    a {
+        color: rgb(224, 224, 28);
+    }
+
+    .menu {
+        list-style: none;
+        float: left;
+        font-size: 10px;
+        padding-left: 0%;
+        position: relative;
+        top: -10px;
+        color: rgb(224, 224, 28);
+    }
+    
+    .menu li {
+        /*Style menu items*/
+        position: relative;
+        float: left;
+    }
+    
+    .menu li a {
+        /*Style menu links*/
+        text-decoration: none;
+        padding: 3px;
+    }
+    
+    .menu li a:hover {
+        text-decoration: underline;
+    }
+    
+    .menu li ul {
+        /*Style items submenu*/
+        position: absolute;
+        background-color: rgb(247, 101, 125);
+        display: none;
+    }
+    
+    .menu li:hover ul,
+    .menu li.over ul {
+        display: block;
+    }
+    
+    .menu li ul li {
+        display: block;
+        width: 150px;
+    }
+
+    .search {
+        font-size: 10px;
+        float: right;
+        position: relative;
+        top: 1px;
+    }
+
+    label {
+        color: rgb(224, 224, 28);
+    }
+
+    #query {
+        font-size: 5px;
+    }
+}
+
+/*Large screens*/
+@media (min-width:901px) {
+    #two {
+    grid-area: 2/1/3/7;
+    background-color: rgb(247, 101, 125);
+    }
+    
+    a {
+    color: rgb(224, 224, 28);
+    }
+    
+    .menu {
+    list-style: none;
+    float: left;
+    font-size: 15px;
+    padding-left: 0%;
+    position: relative;
+    top: -10px;
+    color: rgb(224, 224, 28);
+    }
+        
+    .menu li {
+    /*Style menu items*/
+    position: relative;
+    float: left;
+    }
+        
+    .menu li a {
+    /*Style menu links*/
+    text-decoration: none;
+    padding: 3px;
+    }
+        
+    .menu li a:hover {
+    text-decoration: underline;
+    }
+        
+    .menu li ul {
+    /*Style items submenu*/
+    position: absolute;
+    background-color: rgb(247, 101, 125);
+    display: none;
+    }
+        
+    .menu li:hover ul,
+    .menu li.over ul {
+    display: block;
+    }
+        
+    .menu li ul li {
+    display: block;
+    width: 150px;
+    }
+    
+    .search {
+    font-size: 15px;
+    float: right;
+    position: relative;
+    top: 2px;
+    }
+    
+    label {
+    color: rgb(224, 224, 28);
+    }
+    
+    #query {
+        font-size: 5px;
+    }
+}

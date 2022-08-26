@@ -1,0 +1,284 @@
+/*Mobile screens*/
+@media (min-width:325px) {
+    #four {
+        grid-area: 1/7/5/9;
+        display: grid;
+        grid-template-columns: 92px;
+        grid-template-rows: repeat(8, fr);
+        justify-content: center;
+        align-items: center;
+        background-color:  rgb(247, 101, 125);
+    }
+
+    #subtitle {
+        grid-area: 1/1/2/1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin: 20px;
+        background-color: rgb(224, 224, 28);
+        color: rgb(247, 101, 125);
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        height: 70px;
+        width: 70px;
+        position: absolute;
+        top: 0%;
+        position: relative;
+        top: -20px;
+        left: -13px;
+        animation: interaction 1.5s linear 1ms infinite alternate;
+    }
+    
+    @keyframes interaction {
+        50% {
+            background-color: rgb(224, 224, 28);
+            color: rgb(247, 101, 125)
+        }
+        100% {
+            color: white;
+        }
+    }
+
+    .sdtitles {
+        display: flex;
+	    justify-content: center;
+	    align-items: center;
+        margin: 15px;
+	    background-color: rgb(224, 224, 28);
+	    color: rgb(247, 101, 125);
+        font-size: 12px;
+        font-weight: bold;
+        height: 25px;
+        width: auto;
+    }
+
+    #sdtitlesone {
+        grid-area: 2/1/3/1;
+    }
+
+    #sdboxone {
+        grid-area: 3/1/4/1;
+        display: flex;
+        position: relative;
+        left: 2px;
+        color: rgb(224, 224, 28);
+        font-size: 10px;
+    }
+
+    #sdtitlestwo {
+        grid-area: 5/1/6/1;
+    }
+
+    #sdlist {
+        grid-area: 6/1/7/1;
+        color: rgb(224, 224, 28);
+        list-style-type: none;
+        padding-left: 10%;
+    }
+
+    .adifferent {
+        color: rgb(224, 224, 28);
+        font-size: 10px;
+        text-decoration: none;
+    }
+    
+    .adifferent:hover {
+        text-decoration: underline;
+    }
+
+    #sdtitlesthree {
+        grid-area: 7/1/8/1;
+    }
+
+    #entries {
+        grid-area: 8/1/9/1;
+        display: grid;
+        grid-template-columns: 80px;
+        grid-template-rows: repeat(4, fr);
+        gap: 2px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #entryone {
+        grid-area: 1/1/2/1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #entrytwo {
+        grid-area: 2/1/3/1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #entrythree {
+        grid-area: 3/1/4/1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #entryfour {
+        grid-area: 4/1/5/1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    p {
+        color: rgb(224, 224, 28);
+        font-size: 10px;
+        text-align:left;
+    }
+}
+
+@media (min-width:601px) {
+    #four {
+        grid-area: 1/7/5/9;
+        display: grid;
+        grid-template-columns: 135px;
+        grid-template-rows: repeat(8, fr);
+        justify-content: center;
+        align-items: center;
+        background-color:  rgb(247, 101, 125);
+    }
+
+    #subtitle {
+        grid-area: 1/1/2/1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin: 20px;
+        background-color: rgb(224, 224, 28);
+        color: rgb(247, 101, 125);
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        height: 85px;
+        width: 85px;
+        position: relative;
+        top: -20px;
+        left: 0px;
+        animation: interaction 1.5s linear 1ms infinite alternate;
+    }
+    
+    @keyframes interaction {
+        50% {
+            background-color: rgb(224, 224, 28);
+            color: rgb(247, 101, 125)
+        }
+        100% {
+            color: white;
+        }
+    }
+
+    .sdtitles {
+        display: flex;
+	    justify-content: center;
+	    align-items: center;
+        margin: 15px;
+	    background-color: rgb(224, 224, 28);
+	    color: rgb(247, 101, 125);
+        font-size: 17px;
+        font-weight: bold;
+        height: 35px;
+        width: auto;
+    }
+
+    #sdtitlesone {
+        grid-area: 2/1/3/1;
+    }
+
+    #sdboxone {
+        grid-area: 3/1/4/1;
+        display: flex;
+        position: relative;
+        left: 2px;
+        color: rgb(224, 224, 28);
+        font-size: 15px;
+    }
+
+    #sdtitlestwo {
+        grid-area: 5/1/6/1;
+    }
+
+    #sdlist {
+        grid-area: 6/1/7/1;
+        color: rgb(224, 224, 28);
+        list-style-type: none;
+        padding-left: 10%;
+    }
+
+    .adifferent {
+        color: rgb(224, 224, 28);
+        font-size: 15px;
+        text-decoration: none;
+    }
+    
+    .adifferent:hover {
+        text-decoration: underline;
+    }
+
+    #sdtitlesthree {
+        grid-area: 7/1/8/1;
+    }
+
+    #entries {
+        grid-area: 8/1/9/1;
+        display: grid;
+        grid-template-columns: 130px;
+        grid-template-rows: repeat(4, fr);
+        gap: 2px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #entryone {
+        grid-area: 1/1/2/1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #entrytwo {
+        grid-area: 2/1/3/1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #entrythree {
+        grid-area: 3/1/4/1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #entryfour {
+        grid-area: 4/1/5/1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    p {
+        color: rgb(224, 224, 28);
+        font-size: 15px;
+        text-align:left;
+    }
+}

@@ -1,0 +1,35 @@
+/*Mobile screens*/
+@media (min-width:325px) {
+    #one {
+        grid-area: 1/1/2/7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #blogsName {
+        width: 170px;
+        height: auto;
+        z-index: 1;
+        position: relative;
+        transform: translateX(-130px);
+    }
+}
+
+/*Medium-sized screens*/
+@media (min-width:601px) {
+    #one {
+        grid-area: 1/1/2/7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #blogsName {
+        width: 170px;
+        height: auto;
+        z-index: 1;
+        position: relative;
+        transform: translateX(-95px);
+    }
+}

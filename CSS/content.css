@@ -1,0 +1,125 @@
+/*Mobile screens*/
+@media (min-width:315px) {
+    #three {
+        grid-area: 3/1/5/7;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    figcaption {
+        font-size: 8px; 
+        text-align:justify;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 5px;
+    }
+
+    .text {
+        font-size: 10px;
+        color:  rgb(58, 56, 56);
+        text-align:justify;
+    }
+
+    time {
+        color: rgb(58, 56, 56);
+        font-size: 8px;
+    }
+    
+    .linksarticles {
+        color: rgb(247, 101, 125);
+        margin: 5px;
+        font-size: 8px;
+    }
+}
+
+/*Medium-sized screens*/
+@media (min-width:601px) {
+    #three {
+        grid-area: 3/1/5/7;
+        display: flex;
+	    flex-direction: column;
+	    justify-items: center;
+	    align-items: center;
+    }
+
+    figcaption {
+        font-size: 10px; 
+        text-align:justify;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 5px;
+    }
+
+    .text {
+        font-size: 15px;
+        color:  rgb(58, 56, 56);
+        text-align:justify;
+    }
+
+    time {
+        color: rgb(58, 56, 56);
+        font-size: 10px;
+    }
+    
+    .linksarticles {
+        color: rgb(247, 101, 125);
+        margin: 5px;
+        font-size: 10px;
+    }
+}
+
+/*Large screens*/
+@media (min-width:901px) {
+    #three {
+        grid-area: 3/1/5/7;
+        display: flex;
+	    flex-direction: column;
+	    justify-items: center;
+	    align-items: center;
+    }
+
+    figcaption {
+        font-size: 12px; 
+        text-align:justify;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 5px;
+    }
+
+    .text {
+        font-size: 20px;
+        color:  rgb(58, 56, 56);
+        text-align:justify;
+    }
+
+    time {
+        color: rgb(58, 56, 56);
+        font-size: 12px;
+    }
+    
+    .linksarticles {
+        color: rgb(247, 101, 125);
+        margin: 5px;
+        font-size: 12px;
+    }
+}
