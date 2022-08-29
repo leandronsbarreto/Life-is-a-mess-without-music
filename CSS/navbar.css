@@ -54,7 +54,7 @@
         font-size: 5px;
         float: right;
         position: relative;
-        top: -15px;
+        top: -17px;
     }
 
     label {
@@ -80,10 +80,10 @@
     .menu {
         list-style: none;
         float: left;
-        font-size: 10px;
+        font-size: 13.7px;
         padding-left: 0%;
         position: relative;
-        top: -10px;
+        top: -15px;
         color: rgb(224, 224, 28);
     }
     
@@ -121,7 +121,7 @@
     }
 
     .search {
-        font-size: 10px;
+        font-size: 8px;
         float: right;
         position: relative;
         top: 1px;
@@ -132,7 +132,7 @@
     }
 
     #query {
-        font-size: 5px;
+        font-size: 8px;
     }
 }
 
@@ -150,7 +150,7 @@
     .menu {
     list-style: none;
     float: left;
-    font-size: 15px;
+    font-size: 13.8px;
     padding-left: 0%;
     position: relative;
     top: -10px;
@@ -191,10 +191,10 @@
     }
     
     .search {
-    font-size: 15px;
+    font-size: 10px;
     float: right;
     position: relative;
-    top: 2px;
+    top: 5px;
     }
     
     label {
@@ -202,6 +202,6 @@
     }
     
     #query {
-        font-size: 5px;
+        font-size: 10px;
     }
 }

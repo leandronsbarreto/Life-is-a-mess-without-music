@@ -1,0 +1,123 @@
+@import "aboutme.css" all;
+@import "content.css" all;
+@import "footer.css" all;
+@import "header.css" all;
+@import "images.css" all;
+@import "navbar.css" all;
+@import "sidebar.css" all;
+
+/*Mobile screens*/
+ @media (min-width:325px) {
+     body, html {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-family: Helvetica, Arial, Helvetica, sans-serif;
+         font-style: normal;
+         font-stretch: normal;
+    }
+     h1 {
+         color: rgb(247, 101, 125);
+         font-size: 1.18em;
+    }
+     h2 {
+         color: rgb(247, 101, 125);
+         font-size: 0.98em;
+    }
+     h3 {
+         color: rgb(224, 224, 28);
+         font-size: 0.78em;
+    }
+     button {
+         background-color: rgb(224, 224, 28);
+         color:rgb(247, 101, 125);
+         border: none;
+         font-size: 4.5px;
+    }
+     .container {
+         display: grid;
+         grid-template-columns: 39px 39px 39px 40px 40px 35px 39px 53px;
+        /*8 columns*/
+         grid-template-rows: 120px 15px auto auto auto;
+        /*5 rows*/
+         justify-content: center;
+         background-color: rgb(224, 224, 28);
+    }
+}
+/*Medium-sized screens*/
+ @media (min-width:601px) {
+     body, html {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-family: Helvetica, Arial, Helvetica, sans-serif;
+         font-style: normal;
+         font-stretch: normal;
+    }
+     h1 {
+         color: rgb(247, 101, 125);
+         font-size: 1.19em;
+    }
+     h2 {
+         color: rgb(247, 101, 125);
+         font-size: 0.99em;
+    }
+     h3 {
+         color: rgb(224, 224, 28);
+         font-size: 0.79em;
+    }
+     button {
+         background-color: rgb(224, 224, 28);
+         color:rgb(247, 101, 125);
+         border: none;
+         font-size: 8px;
+    }
+     .container {
+         display: grid;
+         grid-template-columns: 75px 75px 75px 75px 75px 75px 75px 75px;
+        /*8 columns*/
+         grid-template-rows: 120px 15px auto auto auto;
+        /*5 rows*/
+         justify-content: center;
+         background-color: rgb(224, 224, 28);
+    }
+}
+
+/*Large screens*/
+@media (min-width:901px) {
+    body, html {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Helvetica, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-stretch: normal;
+   }
+    h1 {
+        color: rgb(247, 101, 125);
+        font-size: 1.2em;
+   }
+    h2 {
+        color: rgb(247, 101, 125);
+        font-size: 1em;
+   }
+    h3 {
+        color: rgb(224, 224, 28);
+        font-size: 0.8em;
+   }
+    button {
+        background-color: rgb(224, 224, 28);
+        color:rgb(247, 101, 125);
+        border: none;
+        font-size: 10px;
+   }
+    .container {
+        display: grid;
+        grid-template-columns: 112.5px 112.5px 112.5px 112.5px 112.5px 112.5px 112.5px 112.5px;
+       /*8 columns*/
+        grid-template-rows: 120px 25px auto auto auto;
+       /*5 rows*/
+        justify-content: center;
+        background-color: rgb(224, 224, 28);
+   }
+}

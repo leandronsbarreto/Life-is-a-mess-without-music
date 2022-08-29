@@ -33,6 +33,14 @@
         transform: translateX(22px);
     }
 
+    #invitation {
+        box-sizing: border-box;
+        border: 5px;
+        padding: 5px;
+        font-size: 13.6px;
+        color: rgb(224, 224, 28);
+    }
+
     img {
         height: 15px;
         width: 15px;
@@ -44,6 +52,15 @@
         grid-template-rows: 20px 20px 20px;
         justify-content: center;
         gap: 5px;
+        font-size: 10px;
+    }
+
+    #item-one {
+        grid-area: 1/1/2/1;
+        box-sizing: border-box;
+        font-size: 13.5px;
+        border: 2px;
+        padding: 2px;
     }
 
     #item-one {
@@ -92,7 +109,7 @@
         box-sizing: border-box;
         border: 5px;
         padding: 5px;
-        font-size: 15px;
+        font-size: 13.5px;
         color: rgb(224, 224, 28);
     }
 
@@ -122,7 +139,7 @@
     #item-one {
         grid-area: 1/1/2/1;
         box-sizing: border-box;
-        font-size: 15px;
+        font-size: 13.5px;
         border: 2px;
         padding: 2px;
     }
@@ -166,7 +183,7 @@
         box-sizing: border-box;
         border: 5px;
         padding: 5px;
-        font-size: 15px;
+        font-size: 13px;
         color: rgb(224, 224, 28);
     }
 
@@ -196,7 +213,7 @@
     #item-one {
         grid-area: 1/1/2/1;
         box-sizing: border-box;
-        font-size: 15px;
+        font-size: 13px;
         border: 2px;
         padding: 2px;
     }
